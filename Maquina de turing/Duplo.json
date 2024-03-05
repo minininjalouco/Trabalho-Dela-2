@@ -1,0 +1,20 @@
+{
+    "initial": 0,
+    "final": [4],
+    "white": "_",
+    "transitions": [
+        {"from": 0, "to": 1, "read": "a", "write": "A", "dir": "R"},
+        {"from": 0, "to": 2, "read": "b", "write": "B", "dir": "R"},
+        {"from": 0, "to": 3, "read": "c", "write": "C", "dir": "R"},
+        {"from": 1, "to": 1, "read": "a", "write": "a", "dir": "R"},
+        {"from": 1, "to": 2, "read": "b", "write": "B", "dir": "L"},
+        {"from": 1, "to": 3, "read": "c", "write": "C", "dir": "R"},
+        {"from": 2, "to": 2, "read": "b", "write": "B", "dir": "L"},
+        {"from": 2, "to": 3, "read": "c", "write": "C", "dir": "R"},
+        {"from": 2, "to": 2, "read": "a", "write": "A", "dir": "L"},
+        {"from": 3, "to": 3, "read": "c", "write": "C", "dir": "R"},
+        {"from": 3, "to": 3, "read": "a", "write": "D", "dir": "R"},
+        {"from": 3, "to": 3, "read": "b", "write": "E", "dir": "L"},
+        {"from": 3, "to": 4, "read": "_", "write": "_", "dir": "L"}
+    ]
+}
